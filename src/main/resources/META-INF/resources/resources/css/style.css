@@ -1,0 +1,139 @@
+html{
+	font:.8em arial,sans-serif;
+}
+#container{
+    margin:0 0 0 25%;
+    width:50%;
+ 	min-width:520px;
+	max-width:520px;
+}
+
+#container2{
+
+ 	min-width:200px;
+	max-width:520px;
+}
+
+#reg{
+	padding:20px;
+	border:1px solid #D7DCDD;
+	border-radius:2px;
+}
+#footer{
+	margin:10px 0 0;
+	padding:10px 10px 10px 120px;
+	border-radius:7px;
+}
+#footer button{
+	position:relative;
+	padding:3px 15px;
+	border:0;
+	border-radius:20px;
+	background:linear-gradient(to right,#008F00,#00E000,#008F00);
+	box-shadow:inset 0 0 20px 0 #696;
+	color:#fff;
+	letter-spacing:-1px;
+    cursor:pointer;
+}
+#footer button:hover{
+	text-shadow:0 0 10px #fff;
+}
+#footer button:active{
+	box-shadow:inset 0 0 20px 0 #0b0;
+}
+#footer button:before{
+	content:"";
+	position:absolute;
+	top:2px;
+	left:4px;
+	bottom:50%;
+	right:4px;
+	border-radius:5px;
+	background:rgba(255,255,255,.4);
+}
+#footer button:active:before{
+	background:rgba(255,255,255,.5);
+}
+#reg dl{
+	margin:0 0 30px 0;
+	padding:0;
+}
+#reg dl dd{
+	margin:0 0 10px 0;
+	min-width:500px;
+}
+#reg dl input{
+	width:220px;
+	text-shadow:1px 0 0 #bbb;
+	font:1em arial,sans-serif;
+}
+
+#reg   TABLE {
+    border-collapse: collapse; /*Убираем двойные границы между ячейками */
+    /* background: #dc0; Цвет фона таблицы */
+
+    border: 2px solid black; /* Рамка вокруг таблицы */
+   }
+
+   TD, TH {
+    padding: 4px; /* Поля вокруг текста */
+    border: 2px solid black; /* Рамка вокруг ячеек */
+   }
+
+#reg tr{
+	margin:0 0 30px 0;
+	/* padding:0;*/
+	padding: 5px;
+	border: 2px solid;
+}
+#reg dl td{
+	margin:0 0 10px 0;
+	min-width:500px;
+	padding: 5px;
+	border: 2px solid;
+}
+
+#reg td button{
+	text-shadow:1px 0 0 #bbb;
+	font:1em arial,sans-serif;
+}
+#reg dl .pole{
+	display:inline-block;
+	min-width:80px;
+	padding:0 5px 0 0;
+}
+#reg dl .correct{
+	color:#66C766;
+	margin:0 0 0 8px;
+}
+#reg dl .not_correct{
+	display:inline-block;
+	color:#CC0000;
+	margin:0 0 0 8px;
+}
+#reg dl .pole.captch{
+	float:left;
+}
+
+
+#footer .btn {		//Задание общего стиля для кнопки
+
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+	transition-duration: 0.4s;
+    border-radius:20px;
+
+	}
+#footer .btn:hover {	//Стиль кнопки при новедении на него курсора
+    background-color: green;
+    color: red;
+	}
+#footer .btn:active {		//Стиль кнопки при нажатии
+
+	}
+#footer .btn:before{
+
+    }
+#footer .btn:active:before{
+    }
